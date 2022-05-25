@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/podinfo-release.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/base/podinfo-release.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/podinfo-repository.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/base/podinfo-repository.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/podinfo-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/production/podinfo-values.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/staging/podinfo-values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/staging/podinfo-values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +24,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="dev-team2" />
-                    <option name="lastUsedInstant" value="1653503474" />
+                    <option name="lastUsedInstant" value="1653509233" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1653503023" />
+                    <option name="lastUsedInstant" value="1653508529" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="dev-team" />
@@ -50,14 +48,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "/Users/ext11798/Workstations/mine/courses/flux/flux2-multi-tenancy/tenants/production"
+    "last_opened_file_path": "/Users/ext11798/Workstations/mine/courses/flux/flux2-multi-tenancy/tenants/base/dev-team"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tenants/base/dev-team" />
       <recent name="$PROJECT_DIR$/tenants/production" />
       <recent name="$PROJECT_DIR$/tenants/staging" />
-      <recent name="$PROJECT_DIR$/tenants/base/dev-team" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
