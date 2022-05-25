@@ -4,4 +4,4 @@ metadata:
   name: dev-team2
   namespace: apps2
 spec:
-  path: ./staging
+  path: ./production
