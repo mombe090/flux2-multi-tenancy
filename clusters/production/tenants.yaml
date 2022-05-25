@@ -6,7 +6,7 @@ metadata:
 spec:
   dependsOn:
     - name: kyverno-policies
-  interval: 5m
+  interval: 30s
   serviceAccountName: kustomize-controller
   sourceRef:
     kind: GitRepository
