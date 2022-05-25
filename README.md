@@ -1,8 +1,8 @@
 # flux2-multi-tenancy
 
-[![test](https://github.com/fluxcd/flux2-multi-tenancy/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-multi-tenancy/actions)
-[![e2e](https://github.com/fluxcd/flux2-multi-tenancy/workflows/e2e/badge.svg)](https://github.com/fluxcd/flux2-multi-tenancy/actions)
-[![license](https://img.shields.io/github/license/fluxcd/flux2-multi-tenancy.svg)](https://github.com/fluxcd/flux2-multi-tenancy/blob/main/LICENSE)
+[![test](https://github.com/mombe090/flux2-multi-tenancy/workflows/test/badge.svg)](https://github.com/mombe090/flux2-multi-tenancy/actions)
+[![e2e](https://github.com/mombe090/flux2-multi-tenancy/workflows/e2e/badge.svg)](https://github.com/mombe090/flux2-multi-tenancy/actions)
+[![license](https://img.shields.io/github/license/fluxcd/flux2-multi-tenancy.svg)](https://github.com/mombe090/flux2-multi-tenancy/blob/main/LICENSE)
 
 This repository serves as a starting point for managing multi-tenant clusters with Git and Flux v2.
 
@@ -27,7 +27,7 @@ This repository serves as a starting point for managing multi-tenant clusters wi
 
 ## Repository structure
 
-The [platform admin repository](https://github.com/fluxcd/flux2-multi-tenancy/tree/main) contains the following top directories:
+The [platform admin repository](https://github.com/mombe090/flux2-multi-tenancy/tree/main) contains the following top directories:
 
 - **clusters** dir contains the Flux configuration per cluster
 - **infrastructure** dir contains common infra tools such as admission controllers, CRDs and cluster-wide polices
@@ -46,7 +46,7 @@ The [platform admin repository](https://github.com/fluxcd/flux2-multi-tenancy/tr
     └── staging
 ```
 
-A [tenant repository](https://github.com/fluxcd/flux2-multi-tenancy/tree/dev-team) contains the following top directories:
+A [tenant repository](https://github.com/mombe090/flux2-multi-tenancy/tree/dev-team) contains the following top directories:
 
 - **base** dir contains `HelmRepository` and `HelmRelease` manifests
 - **staging** dir contains `HelmRelease` Kustomize patches for deploying pre-releases on the staging cluster
@@ -347,7 +347,7 @@ spec:
         message: ".spec.url must be from a repository within the organisation X"
         anyPattern:
         - spec:
-            url: "https://github.com/fluxcd/?*" # repositories in fluxcd via https
+            url: "https://github.com/mombe090/?*" # repositories in fluxcd via https
         - spec:
             url: "ssh://git@github.com:fluxcd/?*" # repositories in fluxcd via ssh
 ```
@@ -597,5 +597,5 @@ This repository contains the following GitHub CI workflows:
   and tests the staging setup by running Flux in Kubernetes Kind
 
 
-[Flux v0.26]: https://github.com/fluxcd/flux2/releases/tag/v0.26.0
+[Flux v0.26]: https://github.com/mombe090/flux2/releases/tag/v0.26.0
 [multi-tenancy lockdown]: https://fluxcd.io/docs/installation/#multi-tenancy-lockdown

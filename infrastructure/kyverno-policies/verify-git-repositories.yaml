@@ -21,6 +21,6 @@ spec:
         message: ".spec.url must be from a repository within the organisation X"
         anyPattern:
         - spec:
-            url: "https://github.com/fluxcd/?*" # repositories in fluxcd via https
+            url: "https://github.com/mombe090/?*" # repositories in fluxcd via https
         - spec:
             url: "ssh://git@github.com:fluxcd/?*" # repositories in fluxcd via ssh
