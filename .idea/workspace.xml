@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="defcac37-3123-4f62-84e3-dcee58369853" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/production/kustomization.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/production/kustomization.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Deployement.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/production/Deployement.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
