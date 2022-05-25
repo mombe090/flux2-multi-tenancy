@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="defcac37-3123-4f62-84e3-dcee58369853" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/podinfo-release.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/base/podinfo-release.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/podinfo-repository.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/base/podinfo-repository.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/kustomization.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/production/kustomization.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +22,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="dev-team2" />
-                    <option name="lastUsedInstant" value="1653509233" />
+                    <option name="lastUsedInstant" value="1653511431" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1653508529" />
+                    <option name="lastUsedInstant" value="1653511218" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="dev-team" />
