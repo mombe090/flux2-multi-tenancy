@@ -4,4 +4,3 @@ resources:
   - ../base/dev-team
 patchesStrategicMerge:
   - dev-team-patch.yaml
-  - dev-team2-patch.yaml

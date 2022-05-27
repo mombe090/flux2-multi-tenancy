@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
   - rbac.yaml
   - sync.yaml
-  - rbac2.yaml
-  - sync2.yaml
