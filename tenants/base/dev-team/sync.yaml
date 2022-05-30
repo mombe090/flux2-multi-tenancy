@@ -6,7 +6,8 @@ metadata:
 spec:
   interval: 30s
   url: https://github.com/mombe090/flux2-multi-tenancy
-  branch: dev-team
+  ref:
+    branch: dev-team
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
