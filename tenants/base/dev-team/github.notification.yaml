@@ -1,12 +1,4 @@
-apiVersion: v1
-kind: Secret
-metadata:
-  name: github
-  namespace: flux-system
-data:
-  token: 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
 
----
 apiVersion: notification.toolkit.fluxcd.io/v1beta1
 kind: Provider
 metadata:
