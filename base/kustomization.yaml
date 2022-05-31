@@ -4,4 +4,4 @@ resources:
   - podinfo-repository.yaml
   - podinfo-release.yaml
   - bitnami.helmsource.yaml
-  - tomrelease.yaml
+  - tomrelease.yml
