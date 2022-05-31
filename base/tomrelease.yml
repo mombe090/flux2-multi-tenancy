@@ -3,8 +3,9 @@ apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: tomcat
-  namespace: apps
+  namespace: flux
 spec:
+  serviceAccountName: dev-team
   chart:
     spec:
       chart: tomcat
