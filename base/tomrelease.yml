@@ -8,7 +8,7 @@ spec:
   serviceAccountName: dev-team
   chart:
     spec:
-      chart: tomcat
+      chart: bitnami/tomcat
       sourceRef:
         kind: HelmRepository
         name: bitnami
