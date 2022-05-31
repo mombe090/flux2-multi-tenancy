@@ -8,10 +8,10 @@ spec:
   serviceAccountName: dev-team
   chart:
     spec:
-      chart: bitnami/tomcat
+      chart: tomcat
       sourceRef:
         kind: HelmRepository
         name: bitnami
-      version: '>=10.3.2'
+      version: '>=10.0.0'
   interval: 30s
 
