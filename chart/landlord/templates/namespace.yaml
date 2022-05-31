@@ -1,0 +1,12 @@
+{{- range $name, $tenant := .Values.tenants}}
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ $name }}
+  labels:
+    {{- include "landlord.labels" $ | nindent 4}}
+
+---
+
+{{- end }}
