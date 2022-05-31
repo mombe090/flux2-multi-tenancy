@@ -13,5 +13,5 @@ spec:
         kind: HelmRepository
         name: bitnami
       version: '10.0.0'
-  interval: 10m0
+  interval: 10m
 
