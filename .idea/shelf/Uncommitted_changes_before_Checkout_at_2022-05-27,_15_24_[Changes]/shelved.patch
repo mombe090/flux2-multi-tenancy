@@ -1,0 +1,110 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"defcac37-3123-4f62-84e3-dcee58369853\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/production/Deployement.yaml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/production/Deployement.yaml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitToolBoxStore\">\n    <option name=\"recentBranches\">\n      <RecentBranches>\n        <option name=\"branchesForRepo\">\n          <list>\n            <RecentBranchesForRepo>\n              <option name=\"branches\">\n                <list>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"dev-team2\" />\n                    <option name=\"lastUsedInstant\" value=\"1653511431\" />\n                  </RecentBranch>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"main\" />\n                    <option name=\"lastUsedInstant\" value=\"1653511218\" />\n                  </RecentBranch>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"dev-team\" />\n                    <option name=\"lastUsedInstant\" value=\"1653501584\" />\n                  </RecentBranch>\n                </list>\n              </option>\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\n            </RecentBranchesForRepo>\n          </list>\n        </option>\n      </RecentBranches>\n    </option>\n  </component>\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"last_opened_file_path\": \"/Users/ext11798/Workstations/mine/courses/flux/flux2-multi-tenancy/tenants/base/dev-team\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/tenants/base/dev-team\" />\n      <recent name=\"$PROJECT_DIR$/tenants/production\" />\n      <recent name=\"$PROJECT_DIR$/tenants/staging\" />\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"TaskManager\">\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,8 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="defcac37-3123-4f62-84e3-dcee58369853" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/production/Deployement.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/production/Deployement.yaml" afterDir="false" />
++    <list default="true" id="02df734b-1f68-481c-a0cb-7c62296f4796" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/.idea/flux2-multi-tenancy.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/production/Deployment.yaml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/production/kustomization.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/production/kustomization.yaml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -12,52 +18,30 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitToolBoxStore">
+-    <option name="recentBranches">
+-      <RecentBranches>
+-        <option name="branchesForRepo">
+-          <list>
+-            <RecentBranchesForRepo>
+-              <option name="branches">
+-                <list>
+-                  <RecentBranch>
+-                    <option name="branchName" value="dev-team2" />
+-                    <option name="lastUsedInstant" value="1653511431" />
+-                  </RecentBranch>
+-                  <RecentBranch>
+-                    <option name="branchName" value="main" />
+-                    <option name="lastUsedInstant" value="1653511218" />
+-                  </RecentBranch>
+-                  <RecentBranch>
+-                    <option name="branchName" value="dev-team" />
+-                    <option name="lastUsedInstant" value="1653501584" />
+-                  </RecentBranch>
+-                </list>
+-              </option>
+-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+-            </RecentBranchesForRepo>
+-          </list>
+-        </option>
+-      </RecentBranches>
+-    </option>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
+   </component>
+-  <component name="ProjectLevelVcsManager">
+-    <ConfirmationsSetting value="2" id="Add" />
++  <component name="ProjectId" id="29hfC30njQkRAlIWYeKkYHdUlu1" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "last_opened_file_path": "/Users/ext11798/Workstations/mine/courses/flux/flux2-multi-tenancy/tenants/base/dev-team"
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+   }
+ }]]></component>
+-  <component name="RecentsManager">
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/tenants/base/dev-team" />
+-      <recent name="$PROJECT_DIR$/tenants/production" />
+-      <recent name="$PROJECT_DIR$/tenants/staging" />
+-      <recent name="$PROJECT_DIR$" />
+-    </key>
+-  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="02df734b-1f68-481c-a0cb-7c62296f4796" name="Changes" comment="" />
++      <created>1653570108943</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1653570108943</updated>
++    </task>
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+Index: production/kustomization.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apiVersion: kustomize.config.k8s.io/v1beta1\nkind: Kustomization\nresources:\n  - ../base\n  - Deployment.yaml\npatchesStrategicMerge:\n  - podinfo-values.yaml\n
+===================================================================
+diff --git a/production/kustomization.yaml b/production/kustomization.yaml
+--- a/production/kustomization.yaml	
++++ b/production/kustomization.yaml	
+@@ -2,6 +2,5 @@
+ kind: Kustomization
+ resources:
+   - ../base
+-  - Deployment.yaml
+ patchesStrategicMerge:
+   - podinfo-values.yaml

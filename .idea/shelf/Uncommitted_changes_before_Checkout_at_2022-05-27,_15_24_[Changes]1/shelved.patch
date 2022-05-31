@@ -1,0 +1,92 @@
+Index: production/Deployment.yaml
+===================================================================
+diff --git a/production/Deployment.yaml b/production/Deployment.yaml
+deleted file mode 100644
+--- a/production/Deployment.yaml	
++++ /dev/null	
+@@ -1,27 +0,0 @@
+-apiVersion: apps/v1
+-kind: Deployment
+-metadata:
+-  creationTimestamp: null
+-  labels:
+-    app: nginx
+-  name: nginx
+-  namespace: apps2
+-spec:
+-  replicas: 3
+-  selector:
+-    matchLabels:
+-      app: nginx
+-  strategy: {}
+-  template:
+-    metadata:
+-      creationTimestamp: null
+-      labels:
+-        app: nginx
+-    spec:
+-      containers:
+-      - image: nginx:1.19
+-        name: nginx
+-        ports:
+-        - containerPort: 80
+-        resources: {}
+-status: {}
+Index: .idea/flux2-multi-tenancy.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/flux2-multi-tenancy.iml b/.idea/flux2-multi-tenancy.iml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/flux2-multi-tenancy.iml	
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/modules.xml	
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/flux2-multi-tenancy.iml" filepath="$PROJECT_DIR$/.idea/flux2-multi-tenancy.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+new file mode 100644
