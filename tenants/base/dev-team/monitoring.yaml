@@ -27,6 +27,7 @@ spec:
   interval: 1h0m0s
   path: ./manifests/monitoring/kube-prometheus-stack
   prune: true
+  serviceAccountName: kustomize-controller
   sourceRef:
     kind: GitRepository
     name: monitoring
@@ -42,6 +43,7 @@ spec:
   interval: 1h0m0s
   path: ./manifests/monitoring/monitoring-config
   prune: true
+  serviceAccountName: kustomize-controller
   sourceRef:
     kind: GitRepository
     name: monitoring
