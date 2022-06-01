@@ -4,7 +4,7 @@ metadata:
   name: dev-team
   namespace: apps
 spec:
-  interval: 30s
+  interval: 10m
   url: https://github.com/mombe090/flux2-multi-tenancy
   ref:
     branch: dev-team
@@ -16,7 +16,7 @@ metadata:
   namespace: apps
 spec:
   serviceAccountName: dev-team
-  interval: 30s
+  interval: 10m
   sourceRef:
     kind: GitRepository
     name: dev-team
