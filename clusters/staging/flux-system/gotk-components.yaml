@@ -1612,7 +1612,7 @@ spec:
                 type: string
               valuesFiles:
                 description: Alternative list of values files to use as the chart
-                  values (values-sample.yaml is not included by default), expected to be
+                  values (values.yaml is not included by default), expected to be
                   a relative path in the SourceRef. Values files are merged in the
                   order of this list with the last file overriding the first. Ignored
                   when omitted.
@@ -1872,7 +1872,7 @@ spec:
                 type: string
               valuesFiles:
                 description: ValuesFiles is an alternative list of values files to
-                  use as the chart values (values-sample.yaml is not included by default),
+                  use as the chart values (values.yaml is not included by default),
                   expected to be a relative path in the SourceRef. Values files are
                   merged in the order of this list with the last file overriding the
                   first. Ignored when omitted.
@@ -2151,7 +2151,7 @@ spec:
                         type: string
                       valuesFiles:
                         description: Alternative list of values files to use as the
-                          chart values (values-sample.yaml is not included by default), expected
+                          chart values (values.yaml is not included by default), expected
                           to be a relative path in the SourceRef. Values files are
                           merged in the order of this list with the last file overriding
                           the first. Ignored when omitted.
@@ -2732,8 +2732,8 @@ spec:
                         in the values getting merged at the root.
                       type: string
                     valuesKey:
-                      description: ValuesKey is the data key where the values-sample.yaml
-                        or a specific value can be found at. Defaults to 'values-sample.yaml'.
+                      description: ValuesKey is the data key where the values.yaml
+                        or a specific value can be found at. Defaults to 'values.yaml'.
                       type: string
                   required:
                   - kind
