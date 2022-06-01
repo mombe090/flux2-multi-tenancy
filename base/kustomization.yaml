@@ -6,3 +6,4 @@ resources:
   - bitnami.helmsource.yaml
   - tomrelease.yml
   - mombe090.helmsource.yaml
+  - mombenginx-release.yaml
