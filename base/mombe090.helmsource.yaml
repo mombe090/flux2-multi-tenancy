@@ -5,6 +5,6 @@ metadata:
   name: mombe090
   namespace: apps
 spec:
-  interval: 10m0s
+  interval: 30s
   url: https://mombe090.github.io/home
 
