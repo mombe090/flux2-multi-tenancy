@@ -1,0 +1,15 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: nginxmombe090
+  namespace: apps
+spec:
+  serviceAccountName: dev-team
+  releaseName: nginxer
+  chart:
+    spec:
+      chart: nginx
+      sourceRef:
+        kind: HelmRepository
+        name: mombe090
+  interval: 5m
