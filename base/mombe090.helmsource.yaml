@@ -1,0 +1,10 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: mombe090
+  namespace: apps
+spec:
+  interval: 10m0s
+  url: https://mombe090.github.io/home
+
