@@ -1,4 +1,4 @@
-{{- range $name, $tenant := .Values.tenants}}
+ {{- range $name, $tenant := .Values.tenants}}
 
 apiVersion: v1
 kind: Namespace

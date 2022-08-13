@@ -239,7 +239,7 @@ recommended patch:
 > And each named service account used observes the least privilege model.
 
 This repository applies this patch automatically via
-[kustomization.yaml](clusters/production/flux-system/kustomization.yaml) in both clusters.
+[kustomization.yaml](clusters/docker-desktop/production/flux-system/kustomization.yaml) in both clusters.
 
 ```yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
